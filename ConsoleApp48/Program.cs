@@ -50,6 +50,7 @@ namespace Onvezeto
                 }
             }
             Console.WriteLine();
+
             //int onallo = 0;
             //foreach (var auto in autok)
             //{
@@ -69,7 +70,7 @@ namespace Onvezeto
 
             //5.Feladat
             double atlagtomeg = autok.Average(auto => auto.tomeg);
-            Console.WriteLine("5.Feladat: {0}", atlagtomeg);
+            Console.WriteLine("5.Feladat: {0}", Math.Round(atlagtomeg, 3));
             Console.WriteLine();
 
 
